@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.diplaySmooyh {
+    animation-name: smooth;
+    animation-duration: 1s;
+}
+
+
+@keyframes smooth {
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
